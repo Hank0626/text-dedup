@@ -1,0 +1,1 @@
+python -m text_dedup.minhash   --path "oscar-corpus/OSCAR-2201"   --name "is"   --split "train"   --cache_dir "./cache"   --output "output/minhash/oscar_gl_dedup"   --column "text"   --batch_size 10000
